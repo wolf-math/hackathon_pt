@@ -4,6 +4,8 @@ from tabulate import tabulate
 def get_user_menu_choice():
     print("Welcome to student data getter")
     print("What would you like to do?")
+    print("")
+
     choice = input("""
     1. Get all student data
     2. insert student data
@@ -12,6 +14,7 @@ def get_user_menu_choice():
     5. Update a student
     6. Exit
     > """)
+
     return choice
 
 def main():
