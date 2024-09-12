@@ -55,7 +55,7 @@ def main():
             break
 
         # requires input to continue
-        input()
+        input("")
 
 
 if __name__ == "__main__":
